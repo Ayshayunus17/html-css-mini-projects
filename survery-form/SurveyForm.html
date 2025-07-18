@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feedback Form</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="SurveyForm.css" />
+  </head>
+  <body>
+    <h1 id="title">User Experience Feedback</h1>
+  <p id="description">
+    We appreciate your time to help us improve our website experience.
+  </p>
+  <form action="https://register-demo.freecodecamp.org" id="survey-form">
+    <fieldset>
+      <label for="name" id="name-label" class="margin">Full Name
+        <input type="text" name="name" id="name" placeholder="Type your name" required />
+      </label>
+      <label for="email" id="email-label" class="margin">Email Address
+        <input type="email" name="email" id="email" placeholder="Type your email" required />
+      </label>
+      <label for="number" id="number-label" class="margin">Your Age <span>(optional)</span>
+        <input type="number" name="number" id="number" placeholder="Enter your age" min="13" max="120" />
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="dropdown"> What best describes your current situation?
+        <select id="dropdown">
+          <option value="">Choose one</option>
+          <option value="1">Student</option>
+          <option value="2">Employed</option>
+          <option value="3">Learning Full-Time</option>
+          <option value="4">Prefer not to say</option>
+          <option value="5">Other</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="friend-request">Would you recommend our platform to others?
+        <label><input value="1" type="radio" name="friend-request" checked />Absolutely</label>
+        <label><input value="2" type="radio" name="friend-request" />Maybe</label>
+        <label><input value="3" type="radio" name="friend-request" />Not really</label>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="feature">What feature do you enjoy the most?
+        <select id="feature">
+          <option value="">Choose a feature</option>
+          <option value="1">Interactive Lessons</option>
+          <option value="2">Project Challenges</option>
+          <option value="3">Community Forums</option>
+          <option value="4">Open Source Contributions</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="improve">Where do you think we can improve? <span>(check all that apply)</span>
+        <label><input value="1" type="checkbox" name="improve" /> User Interface</label>
+        <label><input value="2" type="checkbox" name="improve" /> Accessibility</label>
+        <label><input value="3" type="checkbox" name="improve" /> Performance</label>
+        <label><input value="4" type="checkbox" name="improve" /> Mobile Support</label>
+        <label><input value="5" type="checkbox" name="improve" /> Learning Materials</label>
+        <label><input value="6" type="checkbox" name="improve" /> Video Content</label>
+        <label><input value="7" type="checkbox" name="improve" /> Events & Webinars</label>
+        <label><input value="8" type="checkbox" name="improve" /> Code Examples</label>
+        <label><input value="9" type="checkbox" name="improve" /> Community Support</label>
+        <label><input value="10" type="checkbox" name="improve" /> Documentation</label>
+        <label><input value="11" type="checkbox" name="improve" /> Course Structure</label>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="comments">
+        <textarea name="comments" id="comments" placeholder="Leave your suggestions here..."></textarea>
+      </label>
+    </fieldset>
+    <label for="submit">
+      <input type="submit" name="submit" id="submit" />
+    </label>
+  </form>
+  </body>
+</html>

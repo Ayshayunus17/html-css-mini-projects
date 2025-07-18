@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Delish | Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+<!--Home-->
+    <header>
+        <nav>
+          <div class="logo">
+            <img src="./pictures/logo.png">
+            <h4>R E S T A U R A N T</h4>
+          </div>
+            <div class="nav-links">
+            <ul>
+                <li><a href="#" id="home_hover">Home</a></li>
+                <li><a href="#about_us">About</a></li>
+                <li><a href="#food_menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+            </ul>
+            <a class="reserve-btn" href="#reservation">Book a Table</a> 
+        </div>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="content">
+            <div class="content-details">
+                <h1>Enjoy Our <br>Delicious Meal</h1>
+                <p>Every meal here is crafted to perfection, offering a delightful range from hearty dinners to refreshing beverages.
+                    Indulge in flavours that satisfy your every craving.
+                </p>
+                <button class="btn-primary"><a href="#">Book a Table</a></button>
+                </div>
+            <div class="image-content">
+                <img src="./pictures/r1.png">
+            </div>
+        </div>
+    </section>
+
+    <!--Specialities-->
+    <section class="specialities">
+        <div class="specialities-title">
+            <img src="./pictures/tray.png">
+            <h3>Delights</h3>
+        </div>
+        <h1>Taste the Best</h1>
+        <div class="main-grid">
+            <div class="items-details">
+                <img src="./pictures/meals.png">
+                <h3>Meals</h3>
+                <p>Delight in every dish, crafted to perfection for a dining experience like no other.</p>
+            </div>
+            <div class="items-details">
+                <img src="./pictures/dessert.png">
+                <h3>Desserts</h3>
+                <p>Indulge in sweet creations that melt in your mouth and linger in your heart.</p>
+            </div>
+            <div class="items-details">
+                <img src="./pictures/shakes.png">
+                <h3>Shakes</h3>
+                <p>Sip into bliss with our creamy, dreamy shakes that are pure refreshment in a glass.</p>
+            </div>
+            <div class="items-details">
+                <img src="./pictures/beverages.png">
+                <h3>Beverages</h3>
+                <p>Refresh and revive with our selection of drinks, creafted to quench your thirst in style</p>
+            </div>
+        </div>
+    </section>
+
+    <!--About us-->
+
+    <section class="about-us">
+        <div class="about-content">
+        <div class="about-details">
+        <div class="about-title">
+            <img src="./pictures/tray.png">
+            <a name="about_us">About Us</a>
+        </div>
+        <div class="title">
+        <h2>Welcome to</h2>
+        <img src="./pictures/logo.png">              
+        </div>
+        <p>At Delish, we believe in creating more than just meals - we craft unforgettable dining experiences. Our chefs blend passion with fresh ingredients to bring you dishes that are both flavourful and visually stunning
+            Whether you're here for a quick bite or a leisurely meal, our cozy atmosphere and attentive service will make you feel right at home.<br><br>
+            We invite you to indulge in a culinary journey that celebrates taste, creativity, and the joy of good food. From the first bite to last sip, every moment at Delish is designed to delight your senses.
+        </p>
+            <div class="stats-section">
+            <div class="stat-box">
+                <div class="line"></div>
+                <div class="stat-content">
+                    <h1>15</h1>
+                    <p>Years of <strong>Experience</strong></p>
+                </div>
+            </div>
+            <div class="stat-box">
+                <div class="line"></div>
+                <div class="stat-content">
+                    <h1>50</h1>
+                    <p>Popular <strong>Master Chefs</strong></p>
+                </div>
+            </div>                           
+        </div>
+            <button  class="btn-primary btn-info"><a href="#">Learn More</a></button>
+        </div>
+        <div class="image-gallery">
+        <img src="./pictures/pt1.jpg" id="image1">
+        <img src="./pictures/pt3.jpg" id="image2">
+        <img src="./pictures/pt4.jpg" id="image3">
+        <img src="./pictures/pt2.jpg">
+        </div>
+    </div>
+    </section>
+
+    <!--Menu-Bar-->
+    <section class="food-menu">
+    <div class="menu-title">
+        <img src="./pictures/tray.png">
+        <a name="food_menu">Food Menu</a>
+    </div>
+    <h1>Most Popular Items</h1>
+        <div class="menu">
+            <div class="input-list"></div>
+            <div class="line-radio"></div>
+            <input type="radio" id="meals-tab" name="menu" checked>
+            <div class="radio-bar" id="radio">
+                <img src="./pictures/meals.png"> 
+                <label for="meals-tab" class="menu-item">Meals</label>
+            </div>
+            <input type="radio" id="desserts-tab" name="menu">
+            <div class="radio-bar">
+                <img src="./pictures/dessert.png">
+                <label for="desserts-tab" class="menu-item">Desserts</label>    
+            </div>
+            <input type="radio" id="shakes-tab" name="menu">
+            <div class="radio-bar">
+                <img src="./pictures/shakes.png">  
+                <label for="shakes-tab" class="menu-item">Shakes</label>    
+            </div>
+            <input type="radio" id="beverages-tab" name="menu">
+            <div class="radio-bar">
+                <img src="./pictures/beverages.png">
+                <label for="beverages-tab" class="menu-item">Beverages</label>
+            </div>       
+            <div class="menu-list-meals">
+                <div class="meals">
+                <div class="meals-content">
+                        <img src="./pictures/m1.jpg">
+                    <h1>Arabic Chicken Shawarama <span>$25.99</span></h1>
+                    <p></p>
+                </div>
+                <div class="meals-content">
+                    <img src="./pictures/m2.jpg">
+                    <h1>Chilli Lime Shrimp Ramen Soup <span>$35.99</span></h1>
+                    <p></p>
+                </div>
+                <div class="meals-content">
+                    <img src="./pictures/m3.jpeg">
+                    <h1>Vegan Croissant<span>$20.99</span></h1>
+                    <p></p>
+                </div>
+                <div class="meals-content">
+                    <img src="./pictures/m4.jpeg">
+                    <h1>Tacos crunchy<span>$13.99</span></h1>
+                    <p></p>
+                </div>
+                </div>
+                <div class="meals-01">
+                    <div class="meals-content">
+                        <img src="./pictures/m5.jpeg">
+                        <h1>Cheeseburger<span>$18.99</span></h1>
+                        <p></p>
+                    </div>
+                    <div class="meals-content">
+                        <img src="./pictures/m6.jpeg">
+                        <h1>Salmon Sushi<span>$27.99</span></h1>
+                        <p></p>
+                    </div>
+                    <div class="meals-content">
+                        <img src="./pictures/m7.jpeg">
+                        <h1>Pizza<span>$44.99</span></h1>
+                        <p></p>
+                    </div>
+                    <div class="meals-content">
+                        <img src="./pictures/m8.jpeg">
+                        <h1>Tortilla Wrap<span>$25.99</span></h1>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-list-desserts">
+                <div class="meals">
+                <div class="meals-content">
+                    <img src="./pictures/d1.jpeg">
+                    <h1>Cheesecake<span>$15.99</span></h1>
+                    <p></p>
+                </div>
+                <div class="meals-content">
+                    <img src="./pictures/d2.jpg">
+                    <h1>Golden Opulence Sundae<span>$100.99</span></h1>
+                    <p></p>
+                </div>
+                <div class="meals-content">
+                    <img src="./pictures/d3.jpeg">
+                    <h1>Crème brûlée<span>$8.99</span></h1>
+                    <p></p>
+                </div>
+                <div class="meals-content">
+                    <img src="./pictures/d4.jpeg">
+                    <h1>Italian Macaron<span>$10.99</span></h1>
+                    <p></p>
+                </div>
+                </div>
+                <div class="meals-01">
+                    <div class="meals-content">
+                        <img src="./pictures/d5.jpeg">
+                        <h1>Crepes Strawberry<span>$6.99</span></h1>
+                        <p></p>
+                    </div>
+                    <div class="meals-content">
+                        <img src="./pictures/d6.jpeg">
+                        <h1>Hot Chocolate Trifle<span>$13.99</span></h1>
+                        <p></p>
+                    </div>
+                    <div class="meals-content">
+                        <img src="./pictures/d7.jpeg">
+                        <h1>Chocolate Truffles<span>$9.99</span></h1>
+                        <p></p>
+                    </div>
+                    <div class="meals-content">
+                        <img src="./pictures/d8.jpeg">
+                        <h1>Raspberry Brownie<span>$18.99</span></h1>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-list-shakes">
+                <div class="meals">
+                <div class="meals-content">
+                    <img src="./pictures/s1.png">
+                    <h1>Vanilla Milkshake<span>$27.99</span></h1>
+                    <p></p>
+                </div>
+                <div class="meals-content">
+                    <img src="./pictures/s2.jpg">
+                    <h1>Red Velvet Cheesecake Milkshake<span>$30.99</span></h1>
+                    <p></p>
+                </div>
+                <div class="meals-content">
+                    <img src="./pictures/s3.jpg">
+                    <h1>Cap'n Crunch Milkshake<span>$115.99</span></h1>
+                    <p></p>
+                </div>
+                <div class="meals-content">
+                    <img src="./pictures/s4.jpg">
+                    <h1>Boozy S'mores Milkshake<span>$48.99</span></h1>
+                    <p></p>
+                </div>
+                </div>
+                <div class="meals-01">
+                    <div class="meals-content">
+                        <img src="./pictures/s5.jpg">
+                        <h1>Copycat Shamrock Shake<span>$42.99</span></h1>
+                        <p></p>
+                    </div>
+                    <div class="meals-content">
+                        <img src="./pictures/s6.jpg">
+                        <h1>Creamsicle Milkshake<span>$35.99</span></h1>
+                        <p></p>
+                    </div>
+                    <div class="meals-content">
+                        <img src="./pictures/s7.jpg">
+                        <h1>Bourbon Milk Punch<span>$55.99</span></h1>
+                        <p></p>
+                    </div>
+                    <div class="meals-content">
+                        <img src="./pictures/s8.jpg">
+                        <h1>Cookie Lovers Shakes<span>$56.99</span></h1>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-list-beverages">
+                <div class="meals">
+                <div class="meals-content">
+                    <img src="./pictures/b1.webp">
+                    <h1>Strawberry Lemonade<span>$9.99</span></h1>
+                    <p></p>
+                </div>
+                <div class="meals-content">
+                    <img src="./pictures/b2.webp">
+                    <h1>Blackberry-Lime Porch Punch<span>$8.99</span></h1>
+                    <p></p>
+                </div>
+                <div class="meals-content">
+                    <img src="./pictures/b3.webp">
+                    <h1>Fresh Mint Tea<span>$15.99</span></h1>
+                    <p></p>
+                </div>
+                <div class="meals-content">
+                    <img src="./pictures/b4.jpg">
+                    <h1>Hot Chocolate<span>$25.99</span></h1>
+                    <p></p>
+                </div>
+                </div>
+                <div class="meals-01">
+                    <div class="meals-content">
+                        <img src="./pictures/b5.webp">
+                        <h1>Ginger-Orange Mocktails<span>$5.99</span></h1>
+                        <p></p>
+                    </div>
+                    <div class="meals-content">
+                        <img src="./pictures/b6.webp">
+                        <h1>Shirley Temple<span>$5.99</span></h1>
+                        <p></p>
+                    </div>
+                    <div class="meals-content">
+                        <img src="./pictures/b7.webp">
+                        <h1>Peach Lemonade<span>$7.99</span></h1>
+                        <p></p>
+                    </div>
+                    <div class="meals-content">
+                        <img src="./pictures/b8.webp">
+                        <h1>Chai<span>$6.99</span></h1>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Reservation-->
+    <section class="reservation">
+            <form action="#" class="form">
+            <fieldset>
+                <div class="reserve-title">
+                    <a name="reservation">Reservation</a>
+                    <h1>Book A Table Online</h1>
+                </div>
+                    <label for="first-name"><input id="first-name" placeholder="Your Name " name="first-name" type="text" required ></label>
+                        <label for="email"><input id="email" placeholder="Your Email " name="email" type="email" required ></label>
+                    <label for="date"><input id="date" name="date" type="date" required ></label>
+                        <label for="time"><input id="time" name="time" type="time" required ></label>
+                    <label for="people"><input id="people" placeholder="No of people" type="number" name="people" min="1" max="100" ></label>
+                <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Special Request"></textarea>
+                <input type="submit" value="BOOK NOW" id="submit">
+            </fieldset>
+            </form>
+            <div class="line-reserve"></div>
+        <div class="offer-details">
+            <div class="offer-image">
+            <img class="image-one" src="./pictures/offer.png">
+            <img src="./pictures/offs1.png" class="offer-tag">
+            <img class="order-icon" src="./pictures/od.png">
+        </div>
+        </div>
+        <!-- <div class="pink">
+            hello
+        </div>
+
+        <div class="blue">
+            hello
+        </div> -->
+    </section>
+
+    <section class="chefs-content">
+    <div class="chefs-title">
+        <img src="./pictures/tray.png">
+        <h3>Team Members</h3>
+    </div>
+    <h1>Our Master Chefs</h1>
+    <div class="chefs-flexbox">
+        <div class="chefs-details">
+            <img src="./pictures/c1.jpg">
+            <h4>Alfredo Linguini</h4>
+            <p>Chef Lead</p>
+        </div>
+        <div class="chefs-details">
+            <img src="./pictures/c2.jpg">
+            <h4>Auguste Gusteau</h4>
+            <p>Chest Assistant</p>
+        </div>
+        <div class="chefs-details">
+            <img src="./pictures/c3.jpg">
+            <h4>Skinner</h4>
+            <p>Chef Assistant</p>
+        </div>
+        <div class="chefs-details">
+            <img src="./pictures/c4.jpg">
+            <h4>Colette Tatou</h4>
+            <p>Chef Assistant</p>
+        </div>
+    </div>
+    </section>
+
+    <!--Testimonials-->
+    <section class="testimonial-container">
+    <div class="testimonial-title">
+        <img src="./pictures/tray.png">
+        <a name="testimonial">testimonial</a>
+    </div>
+    <h1>What Our Clients Say</h1>
+    <div class="testimonial-wrapper">
+        <div class="testimonial-card">
+            <img src="./pictures/dq.png">
+            <div class="testimonial-details">
+                <p>The food at Delish is absolutely incredible! Every dish is a perfect balance of flavor and presentation.I can't wait to come back and try 
+                    more from the menu!
+                </p>
+                <div class="testimonial-profile">
+                    <img src="./pictures/akai.jpeg">
+                    <div class="profile-details">
+                        <h3>Akai Shuichi</h3>
+                        <span>FBI Agent</span>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <img src="./pictures/dq.png">
+            <div class="testimonial-details">
+                <p>Delish is my go-to-spot for a memorable dining experience. The atmosphere is warm, the service is top-notch, and the food is simply outstanding.</p>
+                <div class="testimonial-profile">
+                    <img src="./pictures/Zero.jpeg">
+                    <div class="profile-details">
+                        <h3>Furuya Rei</h3>
+                        <span>PSB Agent</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <img src="./pictures/dq.png">
+            <div class="testimonial-details">
+                <p>From the moment we walked in, we felt welcomed and cared for. The attention to detail, both in the ambiance and the dishes,
+                    truly sets Delish apart.
+                </p>
+                <div class="testimonial-profile">
+                    <img src="./pictures/Ron.jpeg">
+                    <div class="profile-details">
+                        <h3>Kamonohashi Ron</h3>
+                        <span>Detective</span>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <img src="./pictures/dq.png">
+            <div class="testimonial-details">
+                <p>The variety and quality of the meals here are exceptional. Whether you're craving a hearty meal or a light dessert, Delsish
+                    never disappoints!
+                </p>
+                <div class="testimonial-profile">
+                    <img src="./pictures/kanbe.jpeg">
+                    <div class="profile-details">
+                        <h3>Daisuke Kambe</h3>
+                        <span>MPD Detective</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Company</h3>
+            <ul>
+                <li><span>></span><a href="#">About Us</a></li>
+                <li><span>></span><a href="#">Contact Us</a></li>
+                <li><span>></span><a href="#">Reservation</a></li>
+                <li><span>></span><a href="#">Privacy Policy</a></li>
+                <li><span>></span><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <a name="contact">Contact</a>
+            <p>123 Street, California, USA</p>
+            <p>+012 345 67890</p>
+            <p>info@example.com</p>
+            <div class="social-links">
+                <div class="border-image"><img src="./pictures/X.png" ></div>
+                <div class="border-image"><img src="./pictures/facebook.png" ></div>
+                <div class="border-image"><img src="./pictures/youtube.png" ></div>
+                <div class="border-image"><img src="./pictures/instagram.png" ></div>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Opening </h3>
+            <p>Monday - Saturday: 09AM - 09PM</p>
+            <p>Sunday: 10AM - 08PM</p>
+        </div>
+        <div class="footer-section newsletter">
+            <h3>Newsletter</h3>
+            <p>Stay updated with our latest news.</p>
+            <form>
+                <input type="email" placeholder="Your email">
+                <button type="submit">SIGNUP</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="copy">
+            <div id="span">&copy;</div><p>Delish, All Rights Reserved. Designed by Aysha Yunus</p>
+        </div>
+       <div class="agreement">
+        <p>Home</p>
+        <p>Cookies</p>
+        <p>Help</p>
+        <p class="faqs">FAQs</p>
+       </div>
+    </div>
+    </footer>
+</body>
+</html>
