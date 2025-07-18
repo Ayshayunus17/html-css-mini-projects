@@ -1,0 +1,13 @@
+body {
+  overflow-x: hidden;
+  padding-top: 80px;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+p {
+  margin: 0;
+}
+
+button {
+  font-family: Roboto, Arial;
+  cursor: pointer;
+}

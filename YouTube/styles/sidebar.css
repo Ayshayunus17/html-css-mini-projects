@@ -1,0 +1,96 @@
+nav img {
+  width: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  padding: 0 5px;
+}
+
+nav div {
+  height: 74px;
+  width: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  margin-bottom: 1px;
+  border-radius: 10px;
+  transition: background-color 0.15s;
+}
+
+nav div:hover {
+  background-color: rgb(240, 240, 240);
+}
+nav p{
+  margin-top: 9px;
+}
+
+.youtube-shorts {
+  width: 17px;
+}
+
+.create {
+  display: none;
+}
+
+.download-logo {
+  width: 16px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0; 
+    height: 65px;
+    width: 100%;
+    top: auto;
+  }
+
+  nav div:hover {
+    background-color: transparent;
+  }
+
+  nav img {
+    width: 30px;
+  }
+
+  .youtube-shorts{
+    width: 25px;
+  }
+
+  nav p{
+    margin: 5px;
+    font-size: 11px;
+  }
+
+  .subscriptions{
+    margin-top: 3px;
+  }
+
+  .create {
+    display: flex;
+    height: 65px;
+  }
+
+  .create img{
+    background-color: rgb(241, 239, 239);
+    padding: 10px;
+    border-radius: 40px;
+  }
+
+  .downloads-logo {
+    display: none;
+  }
+}
